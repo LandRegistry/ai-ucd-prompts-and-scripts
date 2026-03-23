@@ -14,11 +14,11 @@ Ai can help to assist designers in:
 - improving the quality of work (at the design stage, or later when being implemented in teams)
 - doing design work we could not do before without help (e.g. didnt have the skills or time to do it or learn it)
 
-These prompts and scripts are work in progress. 
+These prompts and scripts have been used for real purposes, but are work in progress. 
 
 This site is a repository of scripts, not a how to guide to using them safely or responsiblly. You should use them responsibly and safely and do your own checking of the results. 
 
-Much of Government design work is rule based - we have clear, well proven solutions and guidance for patterns, components, writing style. Rules also exist for accessibilty.  Much of this can be given as rules to follow to Ai and it has a large body of knowledge in this area to use for checking and assisting.
+Much of Government design work is rule based - we have clear, well proven solutions and guidance for patterns, components and writing style. Rules also exist for accessibilty, and open data standards.  Much of this can be given as rules to Ai to follow and it has a large body of knowledge in these areas.
 
 
 ## prompts and scripts list
@@ -29,6 +29,10 @@ Collection of prompts and scripts
 
 [reviewing content](review-content-against-gov-uk)
 
+
+### Creating realistic data
+
+[Land Parcels](land-parcel-geojson-generator)
 
 
 ## Sources for rules for scripts
