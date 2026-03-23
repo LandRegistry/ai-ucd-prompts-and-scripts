@@ -25,6 +25,15 @@ Much of Government design work is rule based - we have clear, well proven soluti
 
 Collection of prompts and scripts
 
+### prototyping code assistance to GOV.UK standards
+
+AI context for the GOV.UK Prototype Kit
+
+A markdown file to help AI assistants generate correct, accessible, GOV.UK-compliant code for prototypes. 
+
+[AI context for the GOV.UK Prototype Kit](ai-context-for-the-gov-uk-prototype-kit)
+
+
 ### Review your content against GOV.UK style and standards
 
 [reviewing content](review-content-against-gov-uk)
