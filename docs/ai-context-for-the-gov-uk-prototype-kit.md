@@ -3,7 +3,7 @@ layout: page
 title: AI context for the GOV.UK Prototype Kit
 ---
 
-## AI context for the GOV.UK Prototype Kit
+## What this does
 
 A markdown file to help AI assistants generate correct, accessible, GOV.UK-compliant code for prototypes. 
 

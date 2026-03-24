@@ -3,7 +3,9 @@ layout: page
 title: basic markdown
 ---
 
-some basic markdown to get started creating pages use an [online markdown guide](https://www.markdownguide.org/basic-syntax/) to find out how to do more such as lists.
+## What this is about
+
+Some basic markdown to get started creating pages use an [online markdown guide](https://www.markdownguide.org/basic-syntax/) to find out how to do more such as lists.
 
 ## Headings
 

@@ -3,9 +3,9 @@ layout: page
 title: Create Land Parcel data (GeoJSON)
 ---
 
-## Land Parcel GeoJSON Generator
+## What this does
 
-Create GeoSJON data for putting realistic parcels of land on a map for a prototype.
+Create GeoSJON data for putting realistic parcels of land on a map in a prototype.
 
 This has been used for rapid prototyping and illustrating concepts.  For example, on a map in the GOV.UK prototype, on a map running on a web service, or output as a kml file to be loaded into Google Earth.
 
