@@ -13,9 +13,13 @@ The 'rules of weeknoting' are taken from Giles Turnbull / weeknoting community.
 
 [Why weeknote](https://neilojwilliams.net/about/week-notes/)
 
-This promtp could be used with any Ai system to help you turn your initial draft notes into weeknote or teamnote style.
+[Web of weeknotes](https://weeknot.es/)
+
+This prompt could be used with any Ai system to help you turn your initial draft notes into weeknote or teamnote style.
 
 I have this prompt in a Copilot agent, so other people can access the agent allowing them to paste in their notes and get a 'weeknote' or 'teamnote' style version.  As a Copliot agent running inside the organisations domain, people can create agile comms about work that cant be shared on the internet
+
+### Prompt
 
 ```
 # ==========================================
