@@ -15,7 +15,9 @@ I've not used this file in an IDE with Ai assistant.  I've used chunks of the ru
 
 ### Prompt/script/file
 
-[AI context for the GOV.UK Prototype Kit - downloads a markdown file](https://dev.reuselibrary.service.justice.gov.uk/assets/ai-context.md), hosted on the [Gov reuse library](https://dev.reuselibrary.service.justice.gov.uk/)
+NOTE: This file is currently unavailable (bug raised), [AI context for the GOV.UK Prototype Kit - downloads a markdown file](https://dev.reuselibrary.service.justice.gov.uk/assets/ai-context.md), hosted on the [Gov reuse library](https://dev.reuselibrary.service.justice.gov.uk/)
+
+[download a copy of AI context for the GOV.UK Prototype Kit](./assets/ai-context.md)
 
 
 ### Things to explore
