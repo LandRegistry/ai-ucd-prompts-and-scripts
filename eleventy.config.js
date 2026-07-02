@@ -19,6 +19,11 @@ export default function(eleventyConfig) {
     stylesheets: ['/assets/styles.css']
   })
 
+    // Copy downloads to the output without rendering them
+  eleventyConfig.addPassthroughCopy({
+    "docs/assets/downloads": "downloads"
+  });
+
   return {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
