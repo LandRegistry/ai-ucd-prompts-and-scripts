@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template govuk-template--rebranded">
   <head>
     <meta charset="utf-8">
-    <title>AI context for the GOV.UK Prototype Kit - GOV.UK</title>
+    <title>Accessibility statement compliance checker - GOV.UK</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#1d70b8">
 
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/ai-ucd-prompts-and-scripts/assets/styles.css">
 
 
-  <meta property="og:title" content="AI context for the GOV.UK Prototype Kit">
+  <meta property="og:title" content="Accessibility statement compliance checker">
 
     <meta property="og:image" content="/assets/rebrand/images/govuk-opengraph-image.png">
   </head>
@@ -48,25 +48,52 @@
         <main class="govuk-main-wrapper" id="main-content">
   
 <header class="app-document-header">
-  <h1 class="govuk-heading-xl">AI context for the GOV.UK Prototype Kit</h1>
+  <h1 class="govuk-heading-xl">Accessibility statement compliance checker</h1>
 </header>
 
 
 
   <div class="app-prose-scope"><h2 id="what-this-does" tabindex="-1" class="govuk-heading-l">What this does</h2>
-<p class="govuk-body">A markdown file to help AI assistants generate correct, accessible, GOV.UK-compliant code for prototypes.</p>
-<p class="govuk-body">If this file is provided to an IDE using an Ai assitant, it will follow the rules.  Attribution to the creator of these rules are in the file.</p>
+<p class="govuk-body">Reports on the information recorded in your services accessibility statements.  We have many services with many accessibility statements, and checking them all is time consuming.</p>
+<p class="govuk-body">For example:  As a compliance officer i want to see if the service teams have properly reported accessibility defects and are fixing defects in the appropriate timescales.</p>
+<p class="govuk-body">To use the prompt</p>
+<p class="govuk-body">run it as is, on any Ai tool that can access the internet, and when prompted, provide it with a list of URL’s to the accessibility statements for your services.</p>
+<pre class="app-code app-code--block" tabindex="0">// accessibility statement compliance checker
+// 01 June 2026. Version 1
 
-<p class="govuk-body">If you are not using and IDE with Ai assistance, this file is worth reading, as it contains a lot of rules that could be used in other ways and a lot of inspiration for other things you could do for prototyping or checking quality of built services - at all stages of design and development.</p>
-<p class="govuk-body">NOTE: This file is currently unavailable (bug raised), <a href="https://dev.reuselibrary.service.justice.gov.uk/assets/ai-context.md" class="govuk-link">AI context for the GOV.UK Prototype Kit - downloads a markdown file</a>, hosted on the <a href="https://dev.reuselibrary.service.justice.gov.uk/" class="govuk-link">Gov reuse library</a></p>
-<p class="govuk-body">NOTE: I cant make this work yet! <a href="/ai-ucd-prompts-and-scripts/assets/downloads/ai-context.txt" class="govuk-link">download a copy of AI context for the GOV.UK Prototype Kit</a></p>
-<p class="govuk-body">I’ve not used this file in an IDE with Ai assistant.  I’ve used copies of chunks of the rules in the file for Ai promting and agents. for example to check coding rules have been followed.</p>
 
-<h3 id="things-to-explore" tabindex="-1" class="govuk-heading-m">Things to explore</h3>
+// GOAL
+You are a compliance officer, checking a UK Government departments accessibility statements on services and products to check compliance with the UK Law on accessibility. To ensure that the statements are being kept up to date, and issues fixed.
+
+Create a report about compliance with the rules listed here.
+
+// RULES
+Check and report on the following rules:
+- if the statement says the website is accessible or not
+- what the stated issues are - what parts of the website are not fully accessible
+- what stated WCAG defects are
+- what dates are stated for plans to fix any defects
+- if any timescales for fix dates are woolly, e.g. say 'soon' or 'as soon as possible, or 'we estimate'
+- if anything is stated to be out of scope of the accessibility regulations
+- if anything is stated to be disproportionate burden
+- when the website test was last done
+- when the next test will be done
+- who did the testing
+
+
+// WEBSITES TO CHECK
+ask the user for a list of addresses of accessibility statements to check
+
+</pre>
+
+<h3 id="script-history" tabindex="-1" class="govuk-heading-m">Script history</h3>
+<p class="govuk-body">This script originated in an idea to help colleagues check if our teams are fixing accessibility defects, or not declaring issues correctly.  The team do not currently have time to go round all the statements, so there is no real compliance checking outside of the teams themselves.  There was a suggestion about buying or building a tool to manage all the statements, but as an MVP, or simple way to help the team I created this script.</p>
+<h3 id="possible-improvements-things-to-explore" tabindex="-1" class="govuk-heading-m">Possible improvements, things to explore</h3>
 <ul class="govuk-list govuk-list--bullet">
-<li>try this context file in an IDE</li>
-<li>smaller scripts to check UI pages</li>
+<li>it could be extended to check if the statement has been written to the gov content writing standards</li>
+<li>it could do some sample checking of the websites to see if there are issues beyond those declared (i have made simple scripts to check a page against WCAG 2.2 which found defects that teams had not found, and therefore not declared)</li>
 </ul>
+<p class="govuk-body">This script has been tested on chatgpt</p>
 </div>
 
 

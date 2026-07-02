@@ -44,6 +44,10 @@ A markdown file to help Ai assistants generate correct, accessible, GOV.UK-compl
 
 [Land Parcels](land-parcel-geojson-generator)
 
+### Accessibility
+
+[Accessibilty statement compliance checker](accessibilty-statement-compliance-checker)
+
 
 ### Communicating work
 
