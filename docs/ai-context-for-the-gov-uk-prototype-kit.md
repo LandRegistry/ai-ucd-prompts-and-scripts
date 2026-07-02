@@ -13,7 +13,7 @@ If you are not using and IDE with Ai assistance, this file is worth reading, as 
 
 NOTE: This file is currently unavailable (bug raised), [AI context for the GOV.UK Prototype Kit - downloads a markdown file](https://dev.reuselibrary.service.justice.gov.uk/assets/ai-context.md), hosted on the [Gov reuse library](https://dev.reuselibrary.service.justice.gov.uk/)
 
-[download a copy of AI context for the GOV.UK Prototype Kit](/assets/downloads/ai-context.txt)
+NOTE: I cant make this work yet! [download a copy of AI context for the GOV.UK Prototype Kit](/assets/downloads/ai-context.txt)
 
 I've not used this file in an IDE with Ai assistant.  I've used copies of chunks of the rules in the file for Ai promting and agents. for example to check coding rules have been followed.
 
