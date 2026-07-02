@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template govuk-template--rebranded">
   <head>
     <meta charset="utf-8">
-    <title>Ai prompts and scripts for User Centred Design - GOV.UK</title>
+    <title>Accessibility statement compliance checker - GOV.UK</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#1d70b8">
 
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/ai-ucd-prompts-and-scripts/assets/styles.css">
 
 
-  <meta property="og:title" content="Ai prompts and scripts for User Centred Design">
+  <meta property="og:title" content="Accessibility statement compliance checker">
 
     <meta property="og:image" content="/assets/rebrand/images/govuk-opengraph-image.png">
   </head>
@@ -37,51 +37,63 @@
     
 
       <div class="govuk-width-container">
-  
+  <nav class="govuk-breadcrumbs govuk-!-display-none-print" aria-label="Breadcrumb">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/ai-ucd-prompts-and-scripts/">Home</a>
+    </li>
+  </ol>
+</nav>
+
         <main class="govuk-main-wrapper" id="main-content">
   
 <header class="app-document-header">
-  <h1 class="govuk-heading-xl">Ai prompts and scripts for User Centred Design</h1>
+  <h1 class="govuk-heading-xl">Accessibility statement compliance checker</h1>
 </header>
 
 
 
-  <div class="app-prose-scope"><p class="govuk-body">This is a site containing Ai prompts and scripts for User Centred Design.</p>
-<h2 id="introduction" tabindex="-1" class="govuk-heading-l">Introduction</h2>
-<p class="govuk-body">Ai can help to assist designers in:</p>
+  <div class="app-prose-scope"><h2 id="what-this-does" tabindex="-1" class="govuk-heading-l">What this does</h2>
+<p class="govuk-body">Reports on the information recorded in your services accessibility statements.  We have many services with many accessibility statements, and checking them all is time consuming.</p>
+<p class="govuk-body">For example:  As a compliance officer i want to see if the service teams have properly reported accessibility defects and are fixing defects in the appropriate timescales.</p>
+<p class="govuk-body">To use the prompt</p>
+<p class="govuk-body">run it as is, on any Ai tool that can access the internet, and when prompted, provide it with a list of URL’s to the accessibility statements for your services.</p>
+<pre class="app-code app-code--block" tabindex="0">// accessibility statement compliance checker
+// 01 June 2026. Version 1
+
+
+// GOAL
+You are a compliance officer, checking a UK Government departments accessibility statements on services and products to check compliance with the UK Law on accessibility. To ensure that the statements are being kept up to date, and issues fixed.
+
+Create a report about compliance with the rules listed here.
+
+// RULES
+Check and report on the following rules:
+- if the statement says the website is accessible or not
+- what the stated issues are - what parts of the website are not fully accessible
+- what stated WCAG defects are
+- what dates are stated for plans to fix any defects
+- if any timescales for fix dates are woolly, e.g. say 'soon' or 'as soon as possible, or 'we estimate'
+- if anything is stated to be out of scope of the accessibility regulations
+- if anything is stated to be disproportionate burden
+- when the website test was last done
+- when the next test will be done
+- who did the testing
+
+
+// WEBSITES TO CHECK
+ask the user for a list of addresses of accessibility statements to check
+
+</pre>
+
+<h3 id="script-history" tabindex="-1" class="govuk-heading-m">Script history</h3>
+<p class="govuk-body">This script originated in an idea to help colleagues check if our teams are fixing accessibility defects, or not declaring issues correctly.  The team do not currently have time to go round all the statements, so there is no real compliance checking outside of the teams themselves.  There was a suggestion about buying or building a tool to manage all the statements, but as an MVP, or simple way to help the team I created this script.</p>
+<h3 id="possible-improvements-things-to-explore" tabindex="-1" class="govuk-heading-m">Possible improvements, things to explore</h3>
 <ul class="govuk-list govuk-list--bullet">
-<li>speeding up design work</li>
-<li>improving the quality of work (at the design stage, or later when being implemented in teams)</li>
-<li>doing design work we could not do before without help (e.g. didnt have the skills or time to do it or learn it)</li>
-<li>communicating</li>
+<li>it could be extended to check if the statement has been written to the gov content writing standards</li>
+<li>it could do some sample checking of the websites to see if there are issues beyond those declared (i have made simple scripts to check a page against WCAG 2.2 which found defects that teams had not found, and therefore not declared)</li>
 </ul>
-<p class="govuk-body">These prompts and scripts have been used for real purposes, but are work in progress - experiments being iterated.</p>
-<p class="govuk-body">This site is a repository of scripts, not a how to guide to using them safely or responsiblly. You should use them responsibly and safely and do your own checking of the results.</p>
-<p class="govuk-body">Much of Government design work is rule based - we have clear, well proven solutions and guidance for patterns, components and writing style. Rules also exist for accessibilty, and open data standards.  Much of this can be given as rules to Ai to follow and it has a large body of knowledge in these areas.</p>
-<h2 id="prompts-and-scripts-list" tabindex="-1" class="govuk-heading-l">Prompts and scripts list</h2>
-<p class="govuk-body">Collection of prompts and scripts</p>
-<h3 id="prototyping-code-assistance-to-gov-uk-standards" tabindex="-1" class="govuk-heading-m">Prototyping code assistance to GOV.UK standards</h3>
-<p class="govuk-body">AI context for the GOV.UK Prototype Kit</p>
-<p class="govuk-body">A markdown file to help AI assistants generate correct, accessible, GOV.UK-compliant code for prototypes.</p>
-<p class="govuk-body"><a href="ai-context-for-the-gov-uk-prototype-kit" class="govuk-link">AI context for the GOV.UK Prototype Kit</a></p>
-<h3 id="review-your-content-against-gov-uk-style-and-standards" tabindex="-1" class="govuk-heading-m">Review your content against GOV.UK style and standards</h3>
-<p class="govuk-body"><a href="review-content-against-gov-uk" class="govuk-link">reviewing content</a></p>
-<h3 id="creating-realistic-data" tabindex="-1" class="govuk-heading-m">Creating realistic data</h3>
-<p class="govuk-body"><a href="land-parcel-geojson-generator" class="govuk-link">Land Parcels</a></p>
-<h3 id="accessibility" tabindex="-1" class="govuk-heading-m">Accessibility</h3>
-<p class="govuk-body"><a href="accessibilty-statement-compliance-checker" class="govuk-link">Accessibilty statement compliance checker</a></p>
-<h3 id="communicating-work" tabindex="-1" class="govuk-heading-m">Communicating work</h3>
-<p class="govuk-body"><a href="weeknote-co-writer" class="govuk-link">Weeknotes and Teamnotes - agile communications</a></p>
-<h2 id="sources-for-rules-for-scripts" tabindex="-1" class="govuk-heading-l">Sources for rules for scripts</h2>
-<p class="govuk-body">Places where Government standards information can be found to get rules from for Ai tools</p>
-<ul class="govuk-list govuk-list--bullet">
-<li>Government Service Manual</li>
-<li>Government Design system</li>
-<li>Reuse manual - collection of Government resources</li>
-<li>Ai Knowledge hub</li>
-<li>Home Office Design Manual</li>
-<li>DWP accessibilty manual</li>
-</ul>
+<p class="govuk-body">This script has been tested on chatgpt</p>
 </div>
 
 
