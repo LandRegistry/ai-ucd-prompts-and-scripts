@@ -17,8 +17,14 @@ To use the prompt just swap out the bracketed values. For example:
 ```[MIN] to [MAX]``` hectares → 1.2 to 9.5
 ```[land use mix]``` → majority agricultural or unbuilt, some woodland, no urban parcels
 
-To visualise the GeoJSON, copy and paste into your prototype map, or try it online somewhere such as [geojson.io](https://geojson.io/)
+### Using on a map
 
+In the GOV.UK protpotype kit: The GeoJSON output can be dropped into our [map component for rapid interactive protoyping](https://hmlr-map-notes-468fa54db532.herokuapp.com)
+
+In an online map service: try it somewhere such as [geojson.io](https://geojson.io/)
+
+
+### Prompt
 
 ```
 # Land Parcel GeoJSON Generator
