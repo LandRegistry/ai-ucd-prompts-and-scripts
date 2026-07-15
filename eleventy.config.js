@@ -21,7 +21,7 @@ export default function(eleventyConfig) {
 
     // Copy downloads to the output without rendering them
   eleventyConfig.addPassthroughCopy({
-    "docs/downloads": "downloads"
+    "docs/assets/downloads": "downloads"
   });
 
   return {
