@@ -15,9 +15,11 @@ I've not used this file in an IDE with Ai assistant.  I've used chunks of the ru
 
 ### Prompt/script/file
 
-NOTE: This file is currently unavailable (bug raised), [AI context for the GOV.UK Prototype Kit - downloads a markdown file](https://dev.reuselibrary.service.justice.gov.uk/assets/ai-context.md), hosted on the [Gov reuse library](https://dev.reuselibrary.service.justice.gov.uk/)
+[Download a copy of Ai context for the GOV.UK Prototype Kit](/downloads/ai-context.txt).  Save this file as a markdown file, ie with file extension .md
 
-NOTE: I cant make this work yet! [download a copy of AI context for the GOV.UK Prototype Kit](/assets/downloads/ai-context.txt)
+NOTE: The original file is currently unavailable (bug raised), [Ai context for the GOV.UK Prototype Kit - downloads a markdown file](https://dev.reuselibrary.service.justice.gov.uk/assets/ai-context.md), hosted on the [Gov reuse library](https://dev.reuselibrary.service.justice.gov.uk/)
+
+
 
 
 ### Things to explore
